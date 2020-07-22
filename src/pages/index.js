@@ -13,7 +13,7 @@ const IndexPage = ({
 }) => {
 console.log('edges', edges)
   const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .filter(edge => !edge.node.frontmatter.path.includes("/projects")) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
     const Pages = edges
