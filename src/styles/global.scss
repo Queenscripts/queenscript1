@@ -99,7 +99,7 @@ a {
 }
 .site-header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 20px 0;
   background: var(--site-header);
   margin-bottom: 32px;
@@ -413,6 +413,6 @@ body.light {
 
 @media only screen and (max-width: 320px){
   .site-header{
-    display: block;
+    justify-content: center;
   }
 }
