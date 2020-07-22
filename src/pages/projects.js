@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import PostLink from "../components/post-link"
 import HeroHeader from "../components/heroHeader"
 
-const IndexPage = ({
+const Projectpage = ({
   data: {
     site,
     allMarkdownRemark: { edges },
@@ -21,26 +21,26 @@ console.log('edges', edges)
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
   return (
     <Layout>
-      <Helmet>
+      {/* <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
-      </Helmet>
-      <HeroHeader/>
+      </Helmet> */}
+      {/* <HeroHeader/> */}
       <h2>Projects &darr;</h2>
       <div className="grids">
         {Pages}
       </div>
-      <h2>Blog Posts &darr;</h2>
+      {/* <h2>Blog Posts &darr;</h2>
       <div className="grids">
         {Posts}
-      </div>
+      </div> */}
     </Layout>
   )
 }
 
-export default IndexPage
+export default Projectpage
 export const pageQuery = graphql`
-  query indexPageQuery {
+  query Projectpage{
     site {
       siteMetadata {
         title
