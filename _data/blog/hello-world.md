@@ -1,10 +1,11 @@
 ---
 template: BlogPost
-path: /hello-world
+path: /projects/quiz
 date: 2020-02-20T07:08:53.137Z
-title: Hello World
-thumbnail: ''
-metaDescription: Meta description for Hello World
+title: CMS Quiz
+metaDescription: >-
+  This CMS Quiz App is a subjectively focused quiz that asks the user to choose
+  the best CMS based on the provided persona profile.
+thumbnail: /assets/quizapp.png
 ---
-
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique fugiat delectus pariatur blanditiis nulla soluta ratione nostrum, harum maiores adipisci a quod nobis cupiditate quae odit unde qui sit consequuntur.
+This CMS Quiz App is a subjectively focused quiz that asks the user to choose the best CMS based on the provided persona profile.
