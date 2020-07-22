@@ -11,9 +11,9 @@ body {
 body.light {
   --text-color: #210201;
   --primary-color: #7d6800;
-  --primary-text-color: #fff;
+  --primary-text-color: var(--text-color);
   --featured-bg: #493b8a;
-  --featured-text: #fff;
+  --featured-text: var(--text-color);
   --secondary-color: #7d6800;
   --background: #fff;
   --site-header: var(--background);
@@ -31,12 +31,12 @@ body.light {
 }
 body.dark {
   --link-color: #ffffffb3;
-
+  --contact-bg: var(--primary-color);
   --primary-color: #210201;
-  --primary-text-color: #fff;
+  --primary-text-color: rgba(255, 255, 255, 0.6);
   --featured-bg: #66578d;
-  --featured-text: #fff;
-  --secondary-color:#3f4526;
+  --featured-text: rgba(255, 255, 255, 0.742);
+  --secondary-color:#7d6800;
   --background: #7d6800;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
@@ -49,9 +49,8 @@ body.dark {
   --btn-text-color: #868892;
   --btn-hover-bg: var(--btn-bdr);
   --btn-hover-text-color: #00062b;
-  --contact-bg: var(--card-shadow);
   --contact-bdr: var(--card-bg);
-  --input-bg: var(--card-bg);
+  --input-bg: var(--featured-text);
 }
 /* System Fonts as used by Medium and WordPress */
 body {
@@ -125,15 +124,15 @@ a {
   border: 1px solid var(--btn-bdr);
   border-radius: 9px;
   text-decoration: none;
-  color: var(--btn-text-color);
+  color: var(--primary-color);
   font-size: 16px;
   font-weight: 400;
   margin: 0 20px 0 0;
   transition: background-color .3s linear;
   &.-primary {
-    background-color: var(--primary-color);
+    background-color: var(--link-color);
     border-color: var(--primary-color);
-    color: var(--primary-text-color);
+    color: var(--primary-color);
     &:hover {
       background-color: var(--secondary-color);
       color: var(--primary-text-color);
@@ -180,13 +179,13 @@ a {
   text-align: center;
   min-height: 380px;
   //background-image: url('/assets/circles-light.png');
-  background-color: var(--featured-bg);
+  background-color: var(--background);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 18px;
   margin-bottom: 36px;
-  color: var(--featured-text);
+  color: #fff;
   display: grid;
   align-content: center;
   position: relative;
@@ -219,14 +218,14 @@ a {
 }
 .card {
   display: grid;
-  background-color: var(--card-bg);
+  background-color: var(--primary-color);
   border-radius: 9px;
   border: 1px solid var(--card-bdr);
   box-shadow: 0 0 30px var(--card-shadow);
   overflow: hidden;
   line-height: 1.5;
   &:hover .post-link {
-    color: var(--primary-color);
+    color: var(--primary-text-color);
   }
   > a img {
     display: block;
@@ -246,7 +245,7 @@ a {
     margin-bottom: 0;
   }
   .post-link {
-    color: var(--text-color);
+    color: var(--background);
     text-decoration: none;
   }
 }
@@ -257,7 +256,7 @@ a {
 .site-footer {
   text-align: center;
   margin: 90px 0 16px;
-  color: #666;
+  color: var(--featured-text);
   a {
     font-weight: 700;
   }
