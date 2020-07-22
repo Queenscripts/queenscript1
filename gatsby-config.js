@@ -12,7 +12,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
-        path: `${__dirname}/_data`,
+        path: `${__dirname}/_data/blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/_data/projects`,
       },
     },
     {
@@ -44,8 +51,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Delog GatbsyJS Starter`,
-        short_name: `Delog`,
+        name: `Queenscript`,
+        short_name: `Queenscript`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,

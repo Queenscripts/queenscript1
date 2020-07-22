@@ -9,11 +9,12 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #381696;
+  --text-color: #210201;
+  --primary-color: #7d6800;
   --primary-text-color: #fff;
   --featured-bg: #493b8a;
   --featured-text: #fff;
-  --secondary-color: #10072b;
+  --secondary-color: #7d6800;
   --background: #fff;
   --site-header: var(--background);
   --card-bg: #fff;
@@ -29,17 +30,19 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #9984d5;
+  --link-color: #ffffffb3;
+
+  --primary-color: #210201;
   --primary-text-color: #fff;
   --featured-bg: #66578d;
   --featured-text: #fff;
-  --secondary-color: #66578d;
-  --background: #0A041A;
+  --secondary-color:#3f4526;
+  --background: #7d6800;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
   --site-header: var(--background);
-  --card-bg: #181326;
-  --card-bdr: #181326;
+  --card-bg: #210201;
+  --card-bdr: #261f13;
   --card-shadow: #020204;
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
@@ -77,7 +80,7 @@ a {
   align-items: center;
   font-weight: 300;
   a {
-    color: #888;
+    color: var(--link-color);
     text-decoration: none;
     margin: 0 8px 0;
     &[aria-current] {
