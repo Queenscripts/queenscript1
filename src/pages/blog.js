@@ -11,7 +11,6 @@ const Postpage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
-console.log('edges', edges)
   const Posts = edges
     .filter(edge => !edge.node.frontmatter.path.includes("/projects")) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
@@ -19,15 +18,6 @@ console.log('edges', edges)
     
   return (
     <Layout>
-      {/* <Helmet>
-        <title>{site.siteMetadata.title}</title>
-        <meta name="description" content={site.siteMetadata.description} />
-      </Helmet> */}
-      {/* <HeroHeader/> */}
-      {/* <h2>Projects &darr;</h2>
-      <div className="grids">
-        {Pages}
-      </div> */}
       <h2>Blog Posts &darr;</h2>
       <div className="grids">
         {Posts}
