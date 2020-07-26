@@ -11,7 +11,6 @@ const IndexPage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
-console.log('edges', edges)
   const Posts = edges
     .filter(edge => !edge.node.frontmatter.path.includes("/projects")) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
@@ -19,13 +18,18 @@ console.log('edges', edges)
     const Pages = edges
     .filter(edge => edge.node.frontmatter.path.includes("/projects")) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
-  return (
+  
+    // const me = allDirectory
+  // console.log('img', me)
+    return (
     <Layout>
       <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
+       
       </Helmet>
       <HeroHeader/>
+
       <h2>Projects &darr;</h2>
       <div className="grids">
         {Pages}
@@ -41,6 +45,7 @@ console.log('edges', edges)
 export default IndexPage
 export const pageQuery = graphql`
   query indexPageQuery {
+    
     site {
       siteMetadata {
         title
