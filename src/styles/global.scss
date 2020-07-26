@@ -8,15 +8,7 @@ body {
 * {
   margin-top: 0
 }
-.hero{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center left;
-  transition: none 0s ease 0s;
-  mix-blend-mode: multiply;
-}
+
 aside{
   overflow: scroll;
 }
@@ -324,6 +316,10 @@ and (min-width: 768px) {
 .grids {
   grid-template-columns: 1fr 1fr;
 }
+.hero{
+  width: 10%;
+  height: 10%;
+}
 }
 @media only screen 
   and (min-width: 1024px) {
@@ -346,11 +342,31 @@ body.dark {
   .gg-moon {
     display: none;
   }
+  .hero{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center left;
+    transition: none 0s ease 0s;
+    mix-blend-mode: color-burn;
+    border-radius: 50% 50%;
+  }  
 }
 body.light {
   .gg-sun {
     display: none;
   }
+  .hero{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center left;
+    transition: none 0s ease 0s;
+    mix-blend-mode: darken;
+    border-radius: 50% 50%;
+  }  
 }
 .mode-container {
   width: 24px;
@@ -432,5 +448,9 @@ body.light {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .hero{
+    width: 10%;
+    height: 10%;
   }
 }
