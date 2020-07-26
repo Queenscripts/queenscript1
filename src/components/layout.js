@@ -40,12 +40,10 @@ export default ({ children }) => {
         <div className="site-title">
 
           <Link to="/">
-           {!img ? null
-            :
           <Img 
                 className="hero"
                 fluid={img[0].node.fluid}
-          />}
+          />
           {data.site.siteMetadata.title}</Link>
         
         </div>
