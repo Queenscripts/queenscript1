@@ -29,8 +29,7 @@ export default ({ children }) => {
   )
 
  
-  const img = 
-    data.allImageSharp.edges
+  const img = data.allImageSharp.edges;
   
   return (
     <>
