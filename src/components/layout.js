@@ -32,7 +32,6 @@ export default ({ children }) => {
   const img = 
     data.allImageSharp.edges
   
-  console.log('ing', img[0].node.fluid )
   return (
     <>
 
