@@ -7,6 +7,6 @@ metaDescription: prismjs tutorial learn
 ---
 I am utilizing prismjs 
 
-const 
+`const test = "this is a test"` 
 
 https://prismjs.com/
