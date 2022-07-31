@@ -9,4 +9,13 @@ I am utilizing prismjs
 
 `const test = "this is a test"` 
 
+
+
+
+
+```javascript
+const testingThis = "testing this!"
+console.log(testingThis)
+```
+
 https://prismjs.com/
