@@ -1,11 +1,15 @@
 ---
 template: BlogPost
-path: /projects/quiz
-date: 2020-02-20T07:08:53.137Z
-title: CMS Quiz
+path: /projects/budget
+date: 2022-03-17T06:08:53.137Z
+title: 'Myntwise | A budgeting app with ML Power Smart Suggestions '
 metaDescription: >-
-  This CMS Quiz App is a subjectively focused quiz that asks the user to choose
-  the best CMS based on the provided persona profile.
-thumbnail: /assets/quizapp.png
+  Build budgets, track transactions, and know where to purchase goods and
+  services based on your financial availability and personal finance goals.
+thumbnail: /assets/Screen Shot 2022-07-31 at 11.44.11 AM.png
 ---
-This CMS Quiz App is a subjectively focused quiz that asks the user to choose the best CMS based on the provided persona profile.
+View the app at http://myntwise.herokuapp.com/ 
+
+
+
+Build budgets, track transactions, and know where to purchase goods and services based on your financial availability and personal finance goals. It is difficult for busy students and professionals to track expenses, and know where to shop based on their budget and financial goals. With Myntwise, users will be able to build budgets, track transactions, and know where to purchase goods and services based on their financial availability and future goals.
