@@ -46,7 +46,8 @@ let course ="https://specs.udemy.com/course/js-algorithms-and-data-structures-ma
     * assess whether the input will change the performance (by using for loop there's an infine amount of possibilities dependent on the input for the number of operations )
 
 */
-
 ```
 
-https://prismjs.com/
+## Time Complexity 
+
+## Space Complexity
