@@ -26,6 +26,7 @@ export default function Template({
             </div>
           )}
           {!!frontmatter.thumbnail && (
+                       {console.log('front', frontmatter)}
             <div className="post-thumbnail" style={{backgroundImage: `url(${frontmatter.thumbnail})`}}>
               <h1 className="post-title">{frontmatter.title}</h1>
               <div className="post-meta">{frontmatter.date}</div>
