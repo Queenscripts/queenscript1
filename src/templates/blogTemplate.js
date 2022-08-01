@@ -20,6 +20,7 @@ export default function Template({
           
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
+           {console.log('front', frontmatter)}
               <h1 className="post-title">{frontmatter.title}</h1>
               <div className="post-meta">{frontmatter.date}</div>
             </div>
