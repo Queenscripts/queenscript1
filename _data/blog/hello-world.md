@@ -6,7 +6,7 @@ title: 'Myntwise | A budgeting app with ML Power Smart Suggestions '
 metaDescription: >-
   Build budgets, track transactions, and know where to purchase goods and
   services based on your financial availability and personal finance goals.
-thumbnail: /assets/Screen Shot 2022-07-31 at 11.44.11 AM.png
+thumbnail: /assets/myntwise.png
 ---
 View the app at http://myntwise.herokuapp.com/ 
 
