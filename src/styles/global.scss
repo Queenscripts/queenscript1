@@ -14,11 +14,11 @@ aside{
 }
 body.light {
   --text-color: #210201;
-  --primary-color: #7d6800;
+  --primary-color: #95A3B3;
   --primary-text-color: var(--text-color);
   --featured-bg: #493b8a;
   --featured-text: var(--text-color);
-  --secondary-color: #7d6800;
+  --secondary-color: #288F76;
   --background: #fff;
   --site-header: var(--background);
   --card-bg: #fff;
@@ -36,12 +36,12 @@ body.light {
 body.dark {
   --link-color: #ffffffb3;
   --contact-bg: var(--primary-color);
-  --primary-color: #210201;
+  --primary-color: #4B4E6D;
   --primary-text-color: rgba(255, 255, 255, 0.6);
   --featured-bg: #66578d;
   --featured-text: rgba(255, 255, 255, 0.742);
-  --secondary-color:#7d6800;
-  --background: #7d6800;
+  --secondary-color:#288F76;
+  --background: #95A3B3;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
   --site-header: var(--background);
