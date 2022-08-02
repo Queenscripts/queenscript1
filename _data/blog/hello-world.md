@@ -58,3 +58,15 @@ pip3 install -r requirements.txt
 ## Contact
 Created by Queen Shabazz during Walmart sponsored Hackbright residency. 
 ````
+
+<section style="display: grid; grid-template-columns: auto auto; gap: 10px 10px;">
+
+<img width=300 src="https://raw.githubusercontent.com/Queenscripts/myntwise/main/app/grid.png"/>
+
+<img width=300 src="https://raw.githubusercontent.com/Queenscripts/myntwise/main/app/budgets-dashboard.png"/>
+
+<img width=300 src="https://raw.githubusercontent.com/Queenscripts/myntwise/main/app/reports.png"/>
+
+<img width=300 src="https://raw.githubusercontent.com/Queenscripts/myntwise/main/app/transactions.png"/>
+
+</section>
