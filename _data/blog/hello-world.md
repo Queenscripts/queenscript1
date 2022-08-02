@@ -8,13 +8,13 @@ metaDescription: >-
   services based on your financial availability and personal finance goals.
 thumbnail: /assets/myntwise.png
 ---
-View the app at http://myntwise.herokuapp.com/ 
+* View the app at http://myntwise.herokuapp.com/ 
 
 GitHub repo: https://github.com/Queenscripts/myntwise 
 
 Full stack web app helping users solve spending and money problems by enabling them to build budgets, track transactions, and know where to purchase goods and services based on their financial availability and personal finance goals. It is difficult for busy students and professionals to track expenses, and know where to shop based on their budget and financial goals. With Myntwise, users will be able to build budgets, track transactions, and know where to purchase goods and services based on their financial availability and future goals.
 
-````
+````markdown
 # MyntWise 
 ## Overview 
 Build budgets, track transactions, and know where to purchase goods and services based on your financial availability and personal finance goals.
@@ -49,10 +49,10 @@ pip3 install -r requirements.txt
     * Walmart Affiliate Marketing API
 
 
-![ScreenShot](./app/home.png)
-![ScreenShot](./app/grid.png)
-![ScreenShot](./app/transactions.png)
-![ScreenShot](./app/reports.png)
+![ScreenShot](https://github.com/Queenscripts/queenscript1/app/home.png)
+![ScreenShot](https://github.com/Queenscripts/queenscript1/app/grid.png)
+![ScreenShot](https://github.com/Queenscripts/queenscript1/app/transactions.png)
+![ScreenShot](https://github.com/Queenscripts/queenscript1/app/reports.png)
 
 
 ## Contact
