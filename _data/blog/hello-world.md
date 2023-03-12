@@ -1,8 +1,8 @@
 ---
 template: BlogPost
-path: /blog/two-sum-alogrithm
+path: /projects/myntwise
 date: 2023-03-22T06:08:53.137Z
-title: 'Two Sum Algo in Python & Javascript'
+title: 'Myntwise | Budgeting & ML Shopping List'
 metaDescription: >-
   Build budgets, track transactions, and know where to purchase goods and
   services based on your financial availability and personal finance goals.
