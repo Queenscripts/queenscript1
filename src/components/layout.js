@@ -55,7 +55,8 @@ export default ({ children }) => {
                 className="hero"
                 fluid={img[0].node.fluid}
           />
-          {data.site.siteMetadata.title}</Link>
+          {data.site.siteMetadata.title}
+          </Link>
         
         </div>
         
@@ -68,8 +69,7 @@ export default ({ children }) => {
 
       <footer className="site-footer">
         <p>&copy; {new Date().getFullYear()} Queenscript &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://queensform.com">Queensform</a></p>
-        </aside>
-      </footer>
+     </footer>
     </>
   )
 }
