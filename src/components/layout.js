@@ -6,15 +6,16 @@ import Img from 'gatsby-image';
 
 export default ({ children }) => {
   useEffect(() => {
+    
   const script = document.createElement('script');
 
   script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8407231826487620";
   script.async = true;
 
-  document.body.appendChild(script);
+  document.head.appendChild(script);
 
   return () => {
-    document.body.removeChild(script);
+    document.head.removeChild(script);
   }
 }, []);
   const data = useStaticQuery(
