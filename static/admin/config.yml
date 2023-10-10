@@ -1,7 +1,7 @@
 backend:
   name: github
   # change repo to your git repository url
-  repo: QueenShabazz/queenscript1
+  repo: Queenscripts/queenscript1
   branch: master
 
 media_folder: static/assets
