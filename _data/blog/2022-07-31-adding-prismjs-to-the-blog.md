@@ -48,6 +48,8 @@ let course ="https://specs.udemy.com/course/js-algorithms-and-data-structures-ma
 */
 ```
 
-## Time Complexity 
+## Time Complexity
+
+Time complexity refers to the run time of the algorithm.
 
 ## Space Complexity
